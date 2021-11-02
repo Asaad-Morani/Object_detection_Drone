@@ -9,7 +9,7 @@ min_confidence = 0.2
 classes = ["background", "aeroplane","bicycle", "bird", "boat",
            "bottle", "bus", "car", "cat", "chair", "cow", "diningtable"
            ,"dog", "horse", "motorbike", "person", "pottedplant", "sheep",
-           "sofa", "train", "tvmonitor"]
+           "sofa", "train", "tvmonitor"] 
 
 np.random.seed(543210)
 colors = np.random.uniform(0, 255, size=(len(classes), 3))
